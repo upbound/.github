@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Help us diagnose and fix Upbound bugs
-labels: bug, needs-triage, needs-size-label, needs-epic-link
+labels: bug, needs-project, needs-points-label, needs-epic-link
 ---
 <!--
 Thank you for helping to improve Upbound! We use issues for bug reports and
