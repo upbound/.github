@@ -1,0 +1,6 @@
+{
+    "name": "Backport PRs",
+    "description": "Upbound backport workflow.",
+    "iconName": "upbound-cli",
+    "categories": ["Go", "TypeScript"]
+}

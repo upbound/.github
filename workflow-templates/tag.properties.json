@@ -1,0 +1,6 @@
+{
+    "name": "Create a Tag",
+    "description": "Upbound tagging workflow.",
+    "iconName": "upbound-cli",
+    "categories": ["Go", "TypeScript"]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Slash Commands",
+    "description": "Upbound comment /commands.",
+    "iconName": "upbound-cli",
+    "categories": ["Go", "TypeScript"]
+}
