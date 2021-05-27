@@ -19,4 +19,11 @@ implement it sensibly.
 ### How could Upbound help solve your problem?
 <!--
 Let us know how you think Upbound could help with your use case. 
+
+If this feature pertains to an existing epic please cross-reference it below,
+for example by writing:
+
+Epic https://github.com/upbound/some-repo/issues/1000
 -->
+
+Epic #

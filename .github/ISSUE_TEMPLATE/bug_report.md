@@ -13,7 +13,14 @@ one.
 <!--
 Please let us know what behaviour you expected and how Upbound diverged from
 that behaviour.
+
+If this bug pertains to an existing epic please cross-reference it below, for
+example by writing:
+
+Epic https://github.com/upbound/some-repo/issues/1000
 -->
+
+Epic #
 
 ### How can we reproduce it?
 <!--
