@@ -21,7 +21,7 @@ Fixes #
 I have:
 
 - [ ] Read and followed Upbound's [contribution process](https://git.io/fj2m9).
-- [ ] Run `make reviewable test` to ensure this PR is ready for review.
+- [ ] Run `make reviewable` to ensure this PR is ready for review.
 - [ ] Added `backport release-x.y` labels to auto-backport this PR.
 
 ### How has this code been tested
