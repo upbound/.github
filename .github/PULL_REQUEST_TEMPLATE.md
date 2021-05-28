@@ -22,7 +22,7 @@ I have:
 
 - [ ] Read and followed Upbound's [contribution process](https://git.io/fj2m9).
 - [ ] Run `make reviewable` to ensure this PR is ready for review.
-- [ ] Added `backport release-x.y` labels to auto-backport this PR.
+- [ ] Added `backport release-x.y` labels to auto-backport this PR, as appropriate.
 
 ### How has this code been tested
 
