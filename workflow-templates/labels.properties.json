@@ -1,0 +1,6 @@
+{
+    "name": "Default Labels",
+    "description": "Upbound default labels.",
+    "iconName": "upbound-cli",
+    "categories": ["Go", "TypeScript"]
+}
