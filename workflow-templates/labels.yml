@@ -18,3 +18,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yaml-file: .github/default-labels.yml
+          skip-delete: false
