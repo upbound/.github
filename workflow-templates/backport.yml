@@ -8,8 +8,7 @@ on:
   # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
   pull_request_target:
     types: [closed]
-  issue_comment:
-    types: [created]
+  # See also commands.yml for the /backport triggered variant of this workflow.
 
 jobs:
   # NOTE(negz): I tested many backport GitHub actions before landing on this
@@ -20,34 +19,8 @@ jobs:
   # and that PRs _must_ be labelled before they're merged to trigger a backport.
   open-pr:
     runs-on: ubuntu-18.04
-    if: >
-      (
-        github.event_name == 'pull_request_target'
-        && github.event.pull_request.merged
-      ) || (
-        github.event_name == 'issue_comment' &&
-        github.event.issue.pull_request &&
-        startsWith(github.event.comment.body, '/backport')
-      )
+    if: github.event.pull_request.merged
     steps:
-      - name: React to Command
-        uses: actions/github-script@v4
-        if: >
-          github.event_name == 'issue_comment' &&
-          github.event.issue.pull_request &&
-          startsWith(github.event.comment.body, '/backport')
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            // Ack that we saw the comment.
-            github.reactions.createForIssueComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              comment_id: context.payload.comment.id,
-              content: "eyes"
-            })
-            console.log("Reacted to comment.")
-
       - name: Checkout
         uses: actions/checkout@v2
         with:
