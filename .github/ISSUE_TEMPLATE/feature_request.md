@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Help us make Upbound more useful
-labels: enhancement, needs-project, needs-points-label, needs-epic-link
+labels: enhancement
 ---
 <!--
 Thank you for helping to improve Upbound! We use issues for bug reports and
